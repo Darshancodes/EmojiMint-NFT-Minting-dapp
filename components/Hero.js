@@ -77,7 +77,7 @@ const Hero = () => {
 
               <div className="flex items-center mt-6 text-3xl font-bold text-gray-200">
                 <button
-                  className="flex items-center justify-center w-12 h-12 bg-white rounded-md text-black hover:bg-pink-200 text-center"
+                  className="flex items-center justify-center w-12 h-12 bg-white rounded-md text-black hover:bg-purple-200 text-center"
                   onClick={incrementCount}
                 >
                   <svg
@@ -99,7 +99,7 @@ const Hero = () => {
                 <h2 className="mx-8">{count}</h2>
 
                 <button
-                  className="flex items-center justify-center w-12 h-12 bg-white rounded-md hover:bg-pink-200 text-center"
+                  className="flex items-center justify-center w-12 h-12 bg-white rounded-md hover:bg-purple-200 text-center"
                   onClick={decrementCount}
                 >
                   <svg
@@ -126,7 +126,7 @@ const Hero = () => {
 
               {/* Mint Button */}
               <button
-                className="mt-6 py-2 px-4 text-center text-white uppercase bg-pink-500 border-b-4 border-pink-700 rounded hover:bg-pink-400 hover:border-pink-500"
+                className="btn"
                 onClick={mintEmojiFace}
               >
                 Mint now!

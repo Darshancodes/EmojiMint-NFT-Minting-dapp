@@ -12,7 +12,7 @@ export default function MyApp() {
         <div className="md:py-36 py-20">
           <h1
             role="heading"
-            className="xl:text-6xl md:text-4xl text-xl font-bold leading-10 text-white"
+            className="xl:text-6xl md:text-4xl text-xl font-bold leading-10 text-gray-200"
           >
             Frequently asked questions
           </h1>
@@ -144,10 +144,10 @@ export default function MyApp() {
                   <p className="text-base leading-normal text-gray-600 mt-4 ">
                     {` You need a wallet! Download the metamask.io extension for
                     the Chrome/Brave browser or app on mobile. Once joined, you
-                    will be able to kiss your frog after minting the NFT. FYI,
+                    will be able to buy and mint NFT. FYI,
                     there will be a fee associated with every transaction
                     related to gas prices. Once you have made your purchase, the
-                    Frogz in your wallet will be viewable on OpenSea.`}
+                    tokens in your wallet will be viewable on OpenSea.`}
                   </p>
                 </li>
               </ul>
@@ -221,7 +221,7 @@ export default function MyApp() {
             <div className="flex items-center justify-between">
               <div>
                 <h2 className="font-bold font-comfortaa uppercase text-lg leading-none text-gray-800">
-                  Who is behind Emoji Faces?
+                  Can we mint and buy those NFTs?
                 </h2>
               </div>
               <button
@@ -272,7 +272,7 @@ export default function MyApp() {
               <ul>
                 <li>
                   <p className="text-base leading-normal text-gray-600 mt-4 ">
-                    codingwithdidem :) 🎉🎉🎉
+                    Ofcourse, You can buy and mint thoe NFTs!🎉
                   </p>
                 </li>
               </ul>

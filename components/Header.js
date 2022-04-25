@@ -43,7 +43,7 @@ const Header = () => {
   return (
     <>
       <Head>
-        <title>Emoji Faces NFT</title>
+        <title>EmojiMint</title>
         <meta name="description" content="Nft Minting Tutorial" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -53,10 +53,10 @@ const Header = () => {
           {/* Logo */}
           <Link href="#">
             <a className="text-2xl font-bold">
-              <span className="pr-2 text-transparent bg-clip-text bg-gradient-to-br from-pink-400 to-purple-600">
+              <span className="pr-2 text-transparent bg-clip-text bg-gradient-to-br from-pink-500 to-purple-500">
                 Emoji
               </span>
-              Faces
+              Mint
             </a>
           </Link>
 
@@ -122,7 +122,7 @@ const Header = () => {
 
               <li>
                 <a
-                  href="https://twitter.com/DidemKkkaraasl1"
+                  href="https://twitter.com/Darshanshub"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -141,7 +141,7 @@ const Header = () => {
 
               <li>
                 <a
-                  href="https://discord.gg/rAFdkCwn"
+                  href="https://discord.gg/DKH23etbAZ"
                   target="_blank"
                   rel="noreferrer"
                 >
