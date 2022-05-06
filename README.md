@@ -1,1 +1,1 @@
-# EmojiMint---NFT-Minting-dapp
+# EmojiMint-NFT-Minting dapp
