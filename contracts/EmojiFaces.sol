@@ -12,7 +12,7 @@
       using Strings for uint256;
     
       uint256 public constant tokenPrice = 1900000000000000; // 0.0019 ETH 
-      uint256 public constant maxTokenPurchase = 3;
+      uint256 public constant maxTokenPurchase = 4;
       uint256 public constant MAX_TOKENS = 10000;
     
       string public baseURI = ""; // IPFS URI WILL BE SET AFTER ALL TOKENS SOLD OUT
@@ -24,7 +24,7 @@
       mapping(address => bool) private _presaleList;
       mapping(address => uint256) private _presaleListClaimed;
     
-      uint256 public presaleMaxMint = 2;
+      uint256 public presaleMaxMint = 3;
       uint256 public devReserve = 64;
     
       event EmojiMinted(uint256 tokenId, address owner);
