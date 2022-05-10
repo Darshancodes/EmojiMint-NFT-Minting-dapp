@@ -45,7 +45,7 @@
       }
     
       function reveal() public onlyOwner {
-        isRevealed = true;
+        isRevealed = false;
       }
     
       function reserveTokens(address _to, uint256 _reserveAmount)
